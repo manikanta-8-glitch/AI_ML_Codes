@@ -5,7 +5,7 @@ from langchain_ollama import ChatOllama
 # Step 1: Initialize the locally running Llama model
 # ---------------------------------------------------------
 llm = ChatOllama(
-    model="llama3.2:3b",
+    model="llama3.2:latest",
     temperature=0.3,
     # Explicitly connect to the local Ollama server
     #http://localhost:11434
